@@ -7,7 +7,7 @@ function sleep(milliseconds) {
 }
 
 let bucleTexto;
-const time = 250;
+const time = 125;
 function bucle(offOrOn)
 {
     let cont=1;
@@ -37,19 +37,4 @@ function textOn(num)
     console.log("pepe" + num);
     document.getElementById('text_' + num).style.visibility='visible';  
     sleep(time);
-}
-
-function tdKill(tdId)
-{
-    document.getElementById(tdId).style.visibility='hidden';
-}
-
-function tdShow()
-{
-    let cont=1;
-    while (cont<17)
-    {
-        document.getElementById('td' + cont).style.visibility='visible';
-        cont++;
-    }   
 }

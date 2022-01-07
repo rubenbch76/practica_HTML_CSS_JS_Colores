@@ -9,12 +9,11 @@
 </head>
 <body>
 <header>
-     <h1>Colores de fondo</h1>
-     <button type="button" onclick="tdShow()">
-        Ver celdas
-    </button> 
+     
 </header>
 <main>
+    <h1>Colores de fondo</h1>
+     
     <section>
         <table id="size_table">
             <tr> 
@@ -78,6 +77,11 @@
             </tr>         
         </table>
     </section>
+
+    <button type="button" onclick="tdShow()" id="btTable">
+        Ver celdas
+    </button>
+
 </main>
 
 <footer>
@@ -85,7 +89,13 @@
         <h1>Colores de letra</h1>
     </section>
 
-    <section>
+    
+
+    <section id="text_footer">
+        <span id="text_1">black</span> <span id="text_2">teal</span> <span id="text_3">blue</span> <span id="text_4">navy</span> <span id="text_5">lime</span> <span id="text_6">white</span> <span id="text_7">purple</span> <span id="text_8">yellow</span> <span id="text_9">olive</span> <span id="text_10">red</span> <span id="text_11">maroon</span> <span id="text_12">gray</span> <span id="text_13">fuchsia</span> <span id="text_14">green</span> <span id="text_15">aqua</span> <span id="text_16">silver</span>   
+    </section> 
+
+    <section id="buttonsFooter">
         <button type="button" onclick="bucle('Off')">
             Borrar textos
         </button> 
@@ -93,14 +103,11 @@
             Ver textos
         </button>        
     </section>
-
-    <section id="text_footer">
-        <span id="text_1">black</span> <span id="text_2">teal</span> <span id="text_3">blue</span> <span id="text_4">navy</span> <span id="text_5">lime</span> <span id="text_6">white</span> <span id="text_7">purple</span> <span id="text_8">yellow</span> <span id="text_9">olive</span> <span id="text_10">red</span> <span id="text_11">maroon</span> <span id="text_12">gray</span> <span id="text_13">fuchsia</span> <span id="text_14">green</span> <span id="text_15">aqua</span> <span id="text_16">silver</span>   
-    </section> 
     
 </footer>  
 
-<script src="./js/footer.js"></script>
+<script src="./js/table.js"></script>
+<script src="./js/texts.js"></script>
 
 </body>
 </html>
