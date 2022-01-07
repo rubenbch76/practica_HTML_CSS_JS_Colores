@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>211016 - Web Colors</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<header>
+     <h1>Colores de fondo</h1>
+     <button type="button" onclick="tdShow()">
+        Ver celdas
+    </button> 
+</header>
+<main>
+    <section>
+        <table id="size_table">
+            <tr> 
+                <td id="td1" colspan="6" class="td_green headerTableStyle" onclick="tdKill('td1')">
+                    Colores
+                </td>
+            </tr>          
+            <tr> 
+                <td id="td2" class="td_black" onclick="tdKill('td2')">
+                    black
+                </td>
+                <td id="td3" class="td_teal" onclick="tdKill('td3')">
+                    teal
+                </td>
+                <td id="td4" class="td_blue" onclick="tdKill('td4')">
+                    blue
+                </td>
+                <td id="td5" class="td_navy" onclick="tdKill('td5')">
+                    navy
+                </td>
+                <td id="td6" class="td_lime" onclick="tdKill('td6')">
+                    lime
+                </td>
+                <td id="td7" class="td_white" onclick="tdKill('td7')">
+                    white
+                </td>
+            </tr>
+            <tr>
+                <td id="td8" class="td_purple" onclick="tdKill('td8')">
+                    purple
+                </td>
+                <td id="td9" class="td_yellow" onclick="tdKill('td9')">
+                    yellow
+                </td>
+                <td id="td10" class="td_olive" onclick="tdKill('td10')">
+                    olive
+                </td>
+                <td id="td11" class="td_red" onclick="tdKill('td11')">
+                    red
+                </td>
+                <td id="td12" class="td_maroon" onclick="tdKill('td12')">
+                    marron
+                </td>
+                <td id="td13" class="td_gray" onclick="tdKill('td13')">
+                    gray
+                </td>
+            </tr>
+            <tr>
+                <td id="td14" class="td_olive" onclick="tdKill('td14')">
+                    olive
+                </td>
+                <td id="td15" class="td_red" onclick="tdKill('td15')">
+                    red
+                </td>
+                <td id="td16" class="td_fuchsia" onclick="tdKill('td16')">
+                    fuchsia
+                </td>
+                <td id="td17" colspan="3" class="td_green" onclick="tdKill('td17')">
+                    green
+                </td>
+            </tr>         
+        </table>
+    </section>
+</main>
+
+<footer>
+    <section>
+        <h1>Colores de letra</h1>
+    </section>
+
+    <section>
+        <button type="button" onclick="bucle('Off')">
+            Borrar textos
+        </button> 
+        <button type="button" onclick="bucle('On')">
+            Ver textos
+        </button>        
+    </section>
+
+    <section id="text_footer">
+        <span id="text_1">black</span> <span id="text_2">teal</span> <span id="text_3">blue</span> <span id="text_4">navy</span> <span id="text_5">lime</span> <span id="text_6">white</span> <span id="text_7">purple</span> <span id="text_8">yellow</span> <span id="text_9">olive</span> <span id="text_10">red</span> <span id="text_11">maroon</span> <span id="text_12">gray</span> <span id="text_13">fuchsia</span> <span id="text_14">green</span> <span id="text_15">aqua</span> <span id="text_16">silver</span>   
+    </section> 
+    
+</footer>  
+
+<script src="./js/footer.js"></script>
+
+</body>
+</html>
+
+
+
+
+

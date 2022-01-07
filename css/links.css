@@ -1,0 +1,33 @@
+@import "./tableStyles/headerTable.css";
+@import "./tableStyles/tableStyle.css";
+@import "./tableStyles/tdColors.css";
+@import "./footerStyles/footerColors.css";
+@import "./footerStyles/footerText.css";
+
+body{
+    background-image: url(../images/fondo-suelo-textura-madera-beige_53876-104668.jpg);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
